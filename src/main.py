@@ -6,11 +6,12 @@ from netmiko import ConnectHandler
 import getpass
 import datetime
 from pprint import pprint
+import ntc_templates
 from ntc_templates.parse import parse_output
 import logging
 
 # Configuring logging for this lab.
-logging.basicConfig(filename='logs/lab.log', level=logging.info)
+logging.basicConfig(filename='logs/lab.log', level=logging.INFO)
 
 # Initial logging message to indicate the start of the application.
 msg = 'LAB2-Start'
