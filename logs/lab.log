@@ -15,3 +15,39 @@ INFO:root:CREDENTIALS_COLLECTED
 INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
 INFO:paramiko.transport:Authentication (password) successful!
 INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+ERROR:paramiko.transport:Exception (client): Illegal info request from server
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "/home/vscode/.local/lib/python3.11/site-packages/paramiko/transport.py", line 2106, in run
+ERROR:paramiko.transport:    handler(m)
+ERROR:paramiko.transport:  File "/home/vscode/.local/lib/python3.11/site-packages/paramiko/auth_handler.py", line 575, in _parse_userauth_info_request
+ERROR:paramiko.transport:    raise SSHException("Illegal info request from server")
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Illegal info request from server
+ERROR:paramiko.transport:
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK

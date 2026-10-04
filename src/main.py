@@ -10,7 +10,7 @@ import ntc_templates
 from ntc_templates.parse import parse_output
 import logging
 import connection_manager  # Importing the connection manager module to handle device connections.
-
+import command_manager # Importing the data manger module to handle collecting command information and parsing it.
 
 # Configuring logging for this lab.
 logging.basicConfig(filename='logs/lab.log', level=logging.INFO)
@@ -50,6 +50,21 @@ def main():
     logging.info(msg)
 
     teleporter = connection_manager.connect_to_device(sentry)
+
+    # This is where the commands are collected.
+    soldiers = ['show version', 'show ip int brief', 'show inventory']
+
+    
+
+
+
+
+
+
+
+
+
+
     teleporter.disconnect()
     print('device disconnected')
 
