@@ -49,7 +49,9 @@ def main():
     print(msg)
     logging.info(msg)
 
-
+    teleporter = connection_manager.connect_to_device(sentry)
+    teleporter.disconnect()
+    print('device disconnected')
 
 if __name__ == "__main__":
     main()
