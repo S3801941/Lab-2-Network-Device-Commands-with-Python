@@ -9,3 +9,9 @@ INFO:root:CREDENTIALS_COLLECTED
 INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
 INFO:paramiko.transport:Authentication (password) successful!
 INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
