@@ -9,6 +9,8 @@ from pprint import pprint
 import ntc_templates
 from ntc_templates.parse import parse_output
 import logging
+import connection_manager  # Importing the connection manager module to handle device connections.
+
 
 # Configuring logging for this lab.
 logging.basicConfig(filename='logs/lab.log', level=logging.INFO)
@@ -29,7 +31,24 @@ else:
 
 def main():
 
-    pass  # Placeholder for the main application logic
+    print("#"*50)
+    print("Getting Connection Details")
+    print("#"*50)
+    heavy = input("Hostname/IP: ")
+    scout = input("Username: ")
+    spy = getpass.getpass("Password: ")
+
+    sentry = {
+        'device_type': 'cisco_ios',
+        'host': heavy,
+        'username': scout,
+        'password': spy
+    }
+
+    msg = f'CREDENTIALS_COLLECTED'
+    print(msg)
+    logging.info(msg)
+
 
 
 if __name__ == "__main__":
