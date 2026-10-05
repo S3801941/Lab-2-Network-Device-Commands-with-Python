@@ -9,7 +9,7 @@ from pprint import pprint
 import ntc_templates
 from ntc_templates.parse import parse_output
 import logging
-import connection_manager  # Importing the connection manager module to handle device connections.
+import src.connection_manager  # Importing the connection manager module to handle device connections.
 
 # Configuring logging for this lab.
 logging.basicConfig(filename='logs/lab.log', level=logging.INFO)
@@ -48,7 +48,7 @@ def main():
     print(msg)
     logging.info(msg)
 
-    teleporter = connection_manager.connect_to_device(sentry)
+    teleporter = src.connection_manager.connect_to_device(sentry)
     if teleporter is None:
         print("Unable to connect; see logs/lab.log for details.")
         return

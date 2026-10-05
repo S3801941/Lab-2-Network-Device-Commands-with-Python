@@ -10,7 +10,7 @@ Model: ['C8000V']
 Serial: ['9XLWRY40A2V']
 Software Image: X86_64_LINUX_IOSD-UNIVERSALK9-M
 Version: 17.15.4c
-Uptime: 2 days, 15 hours, 36 minutes
+Uptime: 2 days, 15 hours, 43 minutes
 ==================================================
 Show IP Interface Parsed Data
 ==================================================
