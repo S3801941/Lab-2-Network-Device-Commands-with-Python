@@ -10,61 +10,23 @@ Model: ['C8000V']
 Serial: ['9XLWRY40A2V']
 Software Image: X86_64_LINUX_IOSD-UNIVERSALK9-M
 Version: 17.15.4c
-Uptime: 2 days, 15 hours, 21 minutes
-==================================================
-Parsed Command Data
-==================================================
-==================================================
-Show version Parsed Data
-==================================================
-Hostname: Aarohi_Lab
-Model: ['C8000V']
-Serial: ['9XLWRY40A2V']
-Software Image: X86_64_LINUX_IOSD-UNIVERSALK9-M
-Version: 17.15.4c
-Uptime: 2 days, 15 hours, 21 minutes
+Uptime: 2 days, 15 hours, 36 minutes
 ==================================================
 Show IP Interface Parsed Data
 ==================================================
 ----------------------------------------------------------------------
-Interface           IP Address          Status         Protocol       
+Interface           IP Address          Status                   Protocol       
 ----------------------------------------------------------------------
-GigabitEthernet1    10.10.20.148        up             up             
-GigabitEthernet2    unassigned          up             up             
-GigabitEthernet3    unassigned          administratively downdown           
-Loopback2           2.2.2.2             up             up             
-Loopback99          10.99.99.1          up             up             
-Loopback100         100.100.100.100     up             up             
-Loopback102         4.4.4.5             up             up             
-Loopback500         10.50.50.1          up             up             
-Loopback10040       10.0.10.41          up             up             
+GigabitEthernet1    10.10.20.148        up                       up             
+GigabitEthernet2    unassigned          up                       up             
+GigabitEthernet3    unassigned          administratively down    down           
+Loopback2           2.2.2.2             up                       up             
+Loopback99          10.99.99.1          up                       up             
+Loopback100         100.100.100.100     up                       up             
+Loopback102         4.4.4.5             up                       up             
+Loopback500         10.50.50.1          up                       up             
+Loopback10040       10.0.10.41          up                       up             
 ==================================================
-Parsed Command Data
-==================================================
-==================================================
-Show version Parsed Data
-==================================================
-Hostname: Aarohi_Lab
-Model: ['C8000V']
-Serial: ['9XLWRY40A2V']
-Software Image: X86_64_LINUX_IOSD-UNIVERSALK9-M
-Version: 17.15.4c
-Uptime: 2 days, 15 hours, 21 minutes
-==================================================
-Show IP Interface Parsed Data
-==================================================
-----------------------------------------------------------------------
-Interface           IP Address          Status         Protocol       
-----------------------------------------------------------------------
-GigabitEthernet1    10.10.20.148        up             up             
-GigabitEthernet2    unassigned          up             up             
-GigabitEthernet3    unassigned          administratively downdown           
-Loopback2           2.2.2.2             up             up             
-Loopback99          10.99.99.1          up             up             
-Loopback100         100.100.100.100     up             up             
-Loopback102         4.4.4.5             up             up             
-Loopback500         10.50.50.1          up             up             
-Loopback10040       10.0.10.41          up             up             ==================================================
-Show IP Interface Parsed Data
+Show Inventory Data
 ==================================================
 VID: V00  

@@ -15,7 +15,7 @@ import connection_manager  # Importing the connection manager module to handle d
 logging.basicConfig(filename='logs/lab.log', level=logging.INFO)
 
 # Initial logging message to indicate the start of the application.
-msg = 'LAB2-Start'
+msg = '[LAB2-START]'
 print(msg)
 logging.info(msg)
 
@@ -132,7 +132,7 @@ Uptime: {rocket[0].get('uptime', 'N/A')}"""
 {"Show IP Interface Parsed Data"}
 {"="*50}
 {'-'*70}
-{'Interface':<20}{'IP Address':<20}{'Status':<15}{'Protocol':<15}
+{'Interface':<20}{'IP Address':<20}{'Status':<25}{'Protocol':<15}
 {'-'*70}"""
                 for interface in rocket:
                     name = interface.get('interface', 'N/A')
@@ -140,7 +140,7 @@ Uptime: {rocket[0].get('uptime', 'N/A')}"""
                     status = interface.get('status', 'N/A')
                     protocol = interface.get('proto', 'N/A')
                     briefcase += f"""
-{name:<20}{ip_address:<20}{status:<15}{protocol:<15}"""
+{name:<20}{ip_address:<20}{status:<25}{protocol:<15}"""
             except Exception as e:
                 msg = f"PARSE_FAIL: <{soldier}>"
                 print(msg)
@@ -157,7 +157,7 @@ Uptime: {rocket[0].get('uptime', 'N/A')}"""
 
                 briefcase += f"""
 {"="*50}
-{"Show IP Interface Parsed Data"}
+{"Show Inventory Data"}
 {"="*50}
 VID: {rocket[0].get('vid', 'N/A')}
 """
@@ -167,30 +167,21 @@ VID: {rocket[0].get('vid', 'N/A')}
                 logging.info(f"LOGGING STRING: {msg}")
        
        
-        print(briefcase)
-        with open(f"data/reports/device_summary.txt", 'a') as f:
-            f.write(briefcase)
+    print(briefcase)
+    with open(f"data/reports/device_summary.txt", 'a') as f:
+        f.write(briefcase)
 
-        # Logging Report was written
-        msg = 'REPORT_SAVED'
-        print(msg)
-        logging.info(f"LOGGING STRING: {msg}")
-        
-
-
-
-
-
-
-
-
-
-
-
-
+    # Logging Report was written
+    msg = 'REPORT_SAVED'
+    print(msg)
+    logging.info(f"LOGGING STRING: {msg}")
 
     teleporter.disconnect()
     print('device disconnected')
+
+    msg = '[LAB2-END]'
+    print(msg)
+    logging.info(msg)
 
 if __name__ == "__main__":
     main()
