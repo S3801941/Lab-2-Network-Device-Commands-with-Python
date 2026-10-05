@@ -1,0 +1,4 @@
+==================================================
+Raw Output for show ip int brief
+==================================================
+'Interface              IP-Address      OK? Method Status                Protocol\nGigabitEthernet1       10.10.20.148    YES NVRAM  up                    up      \nGigabitEthernet2       unassigned      YES NVRAM  up                    up      \nGigabitEthernet3       unassigned      YES NVRAM  administratively down down    \nLoopback2              2.2.2.2         YES other  up                    up      \nLoopback99             10.99.99.1      YES manual up                    up      \nLoopback100            100.100.100.100 YES manual up                    up      \nLoopback102            4.4.4.5         YES other  up                    up      \nLoopback500            10.50.50.1      YES manual up                    up      \nLoopback10040          10.0.10.41      YES other  up                    up      '

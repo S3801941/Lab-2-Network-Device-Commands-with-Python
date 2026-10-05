@@ -36,18 +36,22 @@ def connect_to_device(sentry):
         print(msg)
         logging.info(f"LOG STRING: {msg}")
         teleporter.disconnect()
+        return
     except NetmikoTimeoutException:
         msg = 'CONNECT_FAIL'
         print(msg)
         logging.info(f"LOG STRING: {msg}")
         teleporter.disconnect()
+        return
     except SSHException:
         msg = 'CONNECT_FAIL'
         print(msg)
         logging.info(f"LOG STRING: {msg}")
         teleporter.disconnect()
+        return
     except Exception as e:
         msg = 'CONNECT_FAIL'
         print(msg)
         logging.info(f"LOG STRING: {msg}")
         teleporter.disconnect()
+        return

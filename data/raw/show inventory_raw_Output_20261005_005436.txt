@@ -1,0 +1,4 @@
+==================================================
+Raw Output for show inventory
+==================================================
+'NAME: "Chassis", DESCR: "Cisco Catalyst 8000V Edge Chassis"\nPID: C8000V            , VID: V00  , SN: 9XLWRY40A2V\n\nNAME: "module R0", DESCR: "Cisco Catalyst 8000V Edge Route Processor"\nPID: C8000V            , VID: V00  , SN: JAB1303001C\n\nNAME: "module F0", DESCR: "Cisco Catalyst 8000V Edge Embedded Services Processor"\nPID: C8000V            , VID:      , SN:            \n\n'

@@ -51,3 +51,167 @@ INFO:root:CREDENTIALS_COLLECTED
 INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
 INFO:paramiko.transport:Authentication (password) successful!
 INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Disconnect (code 2): Non-assigned port!
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+ERROR:root:CONNECT_FAIL host= (ValueError): Either ip or host must be set
+Traceback (most recent call last):
+  File "/workspace/src/connection_manager.py", line 24, in connect_to_device
+    teleporter = ConnectHandler(**sentry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/netmiko/ssh_dispatcher.py", line 516, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/netmiko/base_connection.py", line 351, in __init__
+    raise ValueError("Either ip or host must be set")
+ValueError: Either ip or host must be set
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: PARSE_OK:<show ip int brief>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: PARSE_OK:<show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: PARSE_OK:<show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: PARSE_OK:<show ip int brief>
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LAB2-Start
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:LOG STRING: CONNECT_OK
+INFO:root:LOGGING STRING: CMD_RUN: <show version>
+INFO:root:LOGGING STRING: PARSE_OK:<show version>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show ip int brief>
+INFO:root:LOGGING STRING: PARSE_OK:<show ip int brief>
+INFO:root:LOGGING STRING: REPORT_SAVED
+INFO:root:LOGGING STRING: CMD_RUN: <show inventory>
+INFO:root:LOGGING STRING: PARSE_OK:<show inventory>
+INFO:root:LOGGING STRING: REPORT_SAVED
